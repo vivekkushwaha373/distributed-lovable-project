@@ -1,0 +1,15 @@
+package com.agenticIde.distributed_lovable.intelligence_service.entity;
+
+import lombok.*;
+
+import java.io.Serializable;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@ToString
+@Getter
+public class ChatSessionId implements Serializable {
+    Long projectId;
+    Long userId;
+}
